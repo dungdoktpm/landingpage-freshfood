@@ -147,6 +147,14 @@ section {
   transform: translateX(0%);
 }
 
+.bottom-to-top {
+  transform: translateY(-10%);
+  transition: 1s ease-in-out;
+}
+.bottom-to-top.start {
+  transform: translateY(0%);
+}
+
 /* header */
 #header {
   position: fixed;
@@ -311,7 +319,7 @@ section {
 }
 .food-item {
   width: 25%;
-  height: 27rem;
+  height: 30rem;
   padding: 1rem;
 }
 .item-wrap {
@@ -323,7 +331,7 @@ section {
 }
 .item-img {
   width: 100%;
-  height: 60%;
+  height: 66%;
   position: relative;
   overflow: hidden;
 }

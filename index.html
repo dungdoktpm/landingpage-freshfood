@@ -94,13 +94,17 @@
                 </p>
             </div>
             <ul class="food-category">
-                <li class="category__item active border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-3">All</li>
-                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-4">Salad</li>
-                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-5">Lorem</li>
-                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-6">Chicken</li>
+                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-3 active" 
+                    data-food-type="all">All</li>
+                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-4" 
+                    data-food-type="salad">Salad</li>
+                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-5" 
+                    data-food-type="lorem">Lorem</li>
+                <li class="category__item border-radius border-color primary-color cusor-pointer zoom-0 play-on-scroll delay-6" 
+                    data-food-type="chicken">Chicken</li>
             </ul>
             <div class="food-menu-wrap">
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="salad">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
                             <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
@@ -117,7 +121,55 @@
                     </div>
                 </div>
 
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="lorem">
+                    <div class="item-wrap border-radius">
+                        <div class="item-img border-radius">
+                            <img class="border-radius" src="./images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3 class="grey-color">Lorem ipsum</h3>
+                                <span class="grey-color fs-small">120$</span>
+                            </div>
+                            <div class="cart">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-item border-radius" data-food-type="chicken">
+                    <div class="item-wrap border-radius">
+                        <div class="item-img border-radius">
+                            <img class="border-radius" src="./images/sina-piryae-bBzjWthTqb8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3 class="grey-color">Lorem ipsum</h3>
+                                <span class="grey-color fs-small">120$</span>
+                            </div>
+                            <div class="cart">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-item border-radius" data-food-type="lorem">
+                    <div class="item-wrap border-radius">
+                        <div class="item-img border-radius">
+                            <img class="border-radius" src="./images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
+                        </div>
+                        <div class="item-info">
+                            <div>
+                                <h3 class="grey-color">Lorem ipsum</h3>
+                                <span class="grey-color fs-small">120$</span>
+                            </div>
+                            <div class="cart">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="food-item border-radius" data-food-type="salad">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
                             <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
@@ -133,10 +185,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="salad">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
+                            <img class="border-radius" src="./images/jonathan-farber-OCNqOLeCwOc-unsplash.jpg" alt="">
                         </div>
                         <div class="item-info">
                             <div>
@@ -149,10 +201,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="chicken">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
+                            <img class="border-radius" src="./images/sina-piryae-bBzjWthTqb8-unsplash.jpg" alt="">
                         </div>
                         <div class="item-info">
                             <div>
@@ -165,10 +217,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="salad">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
+                            <img class="border-radius" src="./images/jonathan-farber-OCNqOLeCwOc-unsplash.jpg" alt="">
                         </div>
                         <div class="item-info">
                             <div>
@@ -181,58 +233,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="food-item border-radius">
+                <div class="food-item border-radius" data-food-type="lorem">
                     <div class="item-wrap border-radius">
                         <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
-                        </div>
-                        <div class="item-info">
-                            <div>
-                                <h3 class="grey-color">Lorem ipsum</h3>
-                                <span class="grey-color fs-small">120$</span>
-                            </div>
-                            <div class="cart">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item border-radius">
-                    <div class="item-wrap border-radius">
-                        <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
-                        </div>
-                        <div class="item-info">
-                            <div>
-                                <h3 class="grey-color">Lorem ipsum</h3>
-                                <span class="grey-color fs-small">120$</span>
-                            </div>
-                            <div class="cart">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item border-radius">
-                    <div class="item-wrap border-radius">
-                        <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
-                        </div>
-                        <div class="item-info">
-                            <div>
-                                <h3 class="grey-color">Lorem ipsum</h3>
-                                <span class="grey-color fs-small">120$</span>
-                            </div>
-                            <div class="cart">
-                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA7ElEQVRIS92U3w0BQRCHv6uAEqgAHehAVMAzD6gED7yiAx2IDlwFqAAVkEmcrMvu7b+7RMzjZuf37W9mdhIqjqRiff4L8CyxXCegI3pqicoEXIFGHpAZWACTSDczQHS0TRbyOQLweL/+bgLIudSwFQjZAcMs1zSmU2AeCGgCFxugDtwCAEegq+YVfbQ90POE9AHJ+0QRQOq48QCkQDt/37YqZBJqwFddPaDWXbQFBsASkMZ7h82BNOzgqKrVsgFE2/VnBwMcDeivuTiQzBUwAtbAWJEynTuNqfokddOaNnBUiSp3ENwH1x78LuAFIRojGZ1J/zEAAAAASUVORK5CYII="/>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="food-item border-radius">
-                    <div class="item-wrap border-radius">
-                        <div class="item-img border-radius">
-                            <img class="border-radius" src="./images/carly-jayne-Lv174o7fn7Y-unsplash.jpg" alt="">
+                            <img class="border-radius" src="./images/anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="">
                         </div>
                         <div class="item-info">
                             <div>
