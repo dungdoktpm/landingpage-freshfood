@@ -44,4 +44,11 @@ Array.from(cateItems).forEach(el => {
     }
 })
 
+let mb_menu = document.querySelector('.mb-menu');
+let mb_icon_bar = document.querySelector('.mb-icon-bar');
+
+mb_icon_bar.onclick = (e) => {
+    mb_menu.classList.toggle('active')
+}
+
 
