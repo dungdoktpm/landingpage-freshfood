@@ -1,14 +1,10 @@
-# Responsive Ecommerce Website Using HTML CSS JAVASCRIPT
+# bakery-landing-page
 
-    Responsive Ecommerce Website Using HTML CSS JAVASCRIPT
+    Make Responsive Website Using HTML SCSS & JavaScript
 
-# Video
+# Video tutorial
 
-    https://youtu.be/gWAV3HmWjmY
-
-# Description
-
-    We will Make Responsive Ecommerce Website Using HTML CSS JAVASCRIPT
+    https://youtu.be/Oq19HVbblDc
 
 # Resource
 
@@ -16,10 +12,10 @@
 
     Boxicons: https://boxicons.com/
 
+    Images: https://unsplash.com/
+
+    SwiperJS: https://swiperjs.com/
+
 # Preview
 
-!["Responsive Ecommerce Website Using HTML CSS JAVASCRIPT"](https://user-images.githubusercontent.com/67447840/121814756-f017fb00-cc9c-11eb-997a-0acefe30d2e9.png "Responsive Ecommerce Website Using HTML CSS JAVASCRIPT")
-
-!["Responsive Ecommerce Website Using HTML CSS JAVASCRIPT"](https://user-images.githubusercontent.com/67447840/121814769-fefead80-cc9c-11eb-8621-238d694bf6d5.png "Responsive Ecommerce Website Using HTML CSS JAVASCRIPT")
-
-!["Responsive Ecommerce Website Using HTML CSS JAVASCRIPT"](https://user-images.githubusercontent.com/67447840/121814779-0aea6f80-cc9d-11eb-937f-f9afea0569b6.png "Responsive Ecommerce Website Using HTML CSS JAVASCRIPT")
+!["Responsive Website Using HTML SCSS & JavaScript"](https://user-images.githubusercontent.com/67447840/137575094-d97968a4-8ddb-457a-b027-8f4e4c442b08.png "Responsive Website Using HTML SCSS & JavaScript")
