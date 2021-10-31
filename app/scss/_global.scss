@@ -1,0 +1,24 @@
+@use "./abstracts/" as *;
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tab-highlight-color: transparent;
+}
+
+html {
+  font-size: 100%;
+
+  @include tablet {
+    font-size: 80%;
+  }
+  @include mobile {
+    font-size: 60%;
+  }
+}
+
+body {
+  background-color: $body-bg;
+}
